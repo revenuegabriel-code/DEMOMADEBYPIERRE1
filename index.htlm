@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Montre Tactical Solar</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f5f5f5;
+      font-family: Arial;
+    }
+  </style>
+</head>
+
+<body>
+
+<img src="page.png" style="width:100%">
+
+<button onclick="acheter()" 
+style="position:fixed; bottom:20px; left:50%; transform:translateX(-50%);
+padding:15px 30px; background:black; color:white; border:none; font-size:16px; cursor:pointer;">
+Acheter maintenant
+</button>
+
+<script>
+function acheter() {
+  alert("Commande simulée ✅\n\nLe produit est prêt à être lancé.");
+}
+</script>
+
+</body>
+</html>
